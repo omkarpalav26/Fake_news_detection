@@ -35,7 +35,5 @@ Multinomial Naive Bayes Classifier: A Multinomial Naive Bayes Classifier is empl
 Metrics
 Model performance is evaluated using several metrics:
 
-Accuracy Score: The ratio of correctly predicted instances to total instances.
-Precision, Recall, and F1-Score: These metrics provide insight into the model's performance, particularly on imbalanced datasets.
-Confusion Matrix: Displays the true positives, true negatives, false positives, and false negatives.
-The final model achieved an accuracy score of 95.31% on the test dataset.
+The model achieved an accuracy of 93% on the training dataset; however, the prediction accuracy on the test dataset is lower at approximately 57%. This discrepancy in performance is primarily due to the limited amount of data used during the training phase. For this project, only a subset of the available data was utilized, which may have affected the model's ability to generalize effectively to unseen data.
+
